@@ -29,7 +29,7 @@ app.add_middleware(
 
 # connect to hugging face inference api
 model_id = "mistralai/Mistral-7B-Instruct-v0.3"
-HF_API_URL = f"https://api-inference.huggingface.co/models/{model_id}"
+HF_API_URL = f"https://router.huggingface.co/hf-inference/{model_id}"
 hf_token = os.getenv("HF_TOKEN")
 headers = {"Authorization": f"Bearer {hf_token}"}
 print("✅ HF_TOKEN Present:", hf_token is not None)
