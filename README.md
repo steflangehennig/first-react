@@ -1,5 +1,10 @@
 # Evidence-Based Policy Scoring App
 
+> **This repository has moved.**
+> The app is now maintained under DU-CAID and live at
+> **https://du-caid.github.io/policy-scoring-dashboard/**
+> Source code: https://github.com/DU-CAID/policy-scoring-dashboard
+
 This project is a full-stack web application for uploading and scoring policy documents against a five-dimension evidence-based policy rubric. It combines a React frontend with a FastAPI backend, powered by the open-source Mistral-7B-Instruct model via Hugging Face's Inference API.
 
 ## Features
